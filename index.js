@@ -17,7 +17,7 @@ function TaskManager() {
     this.viewTasks = function() {
       console.log("Tasks: Apple");
       this.tasks.forEach(task => {
-        console.log(`${task.name} - ${task.completed ? 'Completed' : 'Pending pear'}`);
+        console.log(`${task.name} - ${task.completed ? 'Completed' : 'Pending pear lajgblaj'}`);
       });
     };
   }
