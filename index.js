@@ -10,14 +10,14 @@ function TaskManager() {
       if (taskIndex !== -1) {
         this.tasks[taskIndex].completed = true;
       } else {
-        console.log("grape");
+        console.log("grape    cccc");
       }
     };
    
     this.viewTasks = function() {
-      console.log("Tasks: Apple");
+      console.log("Tasks: Apple    bbbb");
       this.tasks.forEach(task => {
-        console.log(`${task.name} - ${task.completed ? 'Completed' : 'Pending pear lajgblaj'}`);
+        console.log(`${task.name} - ${task.completed ? 'Completed' : 'Pending pear  aaaaa'}`);
       });
     };
   }
